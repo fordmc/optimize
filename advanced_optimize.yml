@@ -1,0 +1,20 @@
+# Advanced Optimization Profile
+# Aggressive values for maximum performance without completely breaking mechanics.
+
+server.properties:
+  network-compression-threshold: 512
+  view-distance: 6
+  simulation-distance: 4
+
+spigot.yml:
+  merge-radius:
+    item: 4.0
+    exp: 6.0
+  nerf-spawner-mobs: true
+  arrow-despawn-rate: 300
+  item-despawn-rate: 4000
+
+paper-world-defaults.yml:
+  armor-stands-do-collision-entity-lookups: false
+  armor-stands-tick: false
+  redstone-implementation: ALTERNATE_CURRENT

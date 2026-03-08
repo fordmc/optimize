@@ -1,0 +1,16 @@
+# Normal Optimization Profile
+# Values to apply across various config files.
+# Corresponding files: server.properties, bukkit.yml, spigot.yml, paper-world-defaults.yml, purpur.yml
+
+server.properties:
+  network-compression-threshold: 256
+  # ... Add specific settings relevant to normal optimization ...
+
+spigot.yml:
+  merge-radius:
+    item: 2.5
+    exp: 3.0
+  hopper-transfer: 8
+  hopper-check: 1
+  hopper-amount: 1
+  nerf-spawner-mobs: true

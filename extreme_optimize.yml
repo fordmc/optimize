@@ -1,0 +1,25 @@
+# Extreme Optimization Profile
+# WARNING: These settings will visibly affect gameplay and mechanics.
+# Recommended ONLY for massive servers struggling to maintain 20 TPS.
+
+server.properties:
+  network-compression-threshold: 512
+  view-distance: 4
+  simulation-distance: 3
+
+spigot.yml:
+  merge-radius:
+    item: 6.0
+    exp: 8.0
+  nerf-spawner-mobs: true
+  arrow-despawn-rate: 100
+  item-despawn-rate: 1200
+  mob-spawn-range: 3
+
+paper-world-defaults.yml:
+  armor-stands-do-collision-entity-lookups: false
+  armor-stands-tick: false
+  per-player-mob-spawns: true
+  prevent-moving-into-unloaded-chunks: true
+  redstone-implementation: ALTERNATE_CURRENT
+  optimize-explosions: true
