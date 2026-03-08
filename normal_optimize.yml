@@ -4,7 +4,6 @@
 
 server.properties:
   network-compression-threshold: 256
-  # ... Add specific settings relevant to normal optimization ...
 
 spigot.yml:
   merge-radius:
@@ -12,5 +11,11 @@ spigot.yml:
     exp: 3.0
   hopper-transfer: 8
   hopper-check: 1
-  hopper-amount: 1
   nerf-spawner-mobs: true
+
+paper-world-defaults.yml:
+  treasure-maps-return-already-discovered: true
+  disable-chest-cat-detection: true
+
+purpur.yml:
+  disable-treasure-searching: true

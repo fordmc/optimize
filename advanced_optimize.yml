@@ -18,3 +18,9 @@ paper-world-defaults.yml:
   armor-stands-do-collision-entity-lookups: false
   armor-stands-tick: false
   redstone-implementation: ALTERNATE_CURRENT
+  treasure-maps-return-already-discovered: true
+  disable-chest-cat-detection: true
+
+purpur.yml:
+  disable-treasure-searching: true
+  teleport-if-outside-border: true

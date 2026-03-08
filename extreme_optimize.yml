@@ -23,3 +23,9 @@ paper-world-defaults.yml:
   prevent-moving-into-unloaded-chunks: true
   redstone-implementation: ALTERNATE_CURRENT
   optimize-explosions: true
+  treasure-maps-return-already-discovered: true
+  disable-chest-cat-detection: true
+
+purpur.yml:
+  disable-treasure-searching: true
+  teleport-if-outside-border: true
